@@ -1,0 +1,16 @@
+
+# Ignora la carpeta .vscode que contiene la configuración del proyecto
+# para visual code y es información exclusiva de cada usuario.
+.vscode/
+
+# La carpeta "pycache" en Python se utiliza para almacenar archivos de
+# caché generado por el intérprete de Python. Estos archivos de caché
+# contienen bytecode compilado de módulos Python para mejorar el rendimiento
+# de la importación de módulos en futuras ejecuciones del programa.
+# Ignora __pycache__ en cualquier carpeta del proyecto.
+**/__pycache__
+
+# Con esto ignora la base de datos db_alumnos.sqlite que está en la carpeta
+# database, es importante ya que de ese modo proteger los datos de prueba que
+# cada usuario tiene.
+database/db_alumnos.sqlite3
